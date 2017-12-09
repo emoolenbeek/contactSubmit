@@ -1,0 +1,53 @@
+$col-1-width: 30%;
+$col-2-width: 100% - $col-1-width;
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.title {
+  width: 100%;
+  font-size: 3em;
+  font-weight: bold;
+  border: solid black 1px;
+}
+
+#contentWrap{
+    width: 100%;
+}
+
+.contactDiv{
+    padding-top: 1em; 
+}
+
+#leftSide{
+    width: 25%;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 2em;
+    float:left;
+    background-color: aquamarine;
+}
+
+#rightSide{
+    width: 60%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+#selectContact{
+    padding-left: 2em;
+}
+
+.contactInfo{
+    display: inline-block;
+    overflow: hidden; 
+}
+
+.contactImage{
+    padding-top: 1em;
+    padding-right: 1em;
+    float:left;
+    display: inline-block;
+}
